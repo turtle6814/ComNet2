@@ -1,7 +1,4 @@
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Paths;
-import java.util.List;
-import java.util.Map;
 import java.util.concurrent.Executors;
 
 public class HttpServer {
@@ -26,6 +23,7 @@ public class HttpServer {
 //                    "Content_Length", List.of(String.valueOf(body.length)));
 //            return new HttpResponse(200, headers, body);
 //        });
+        System.err.println("");
         server.start(fileHandler);
     }
 }
