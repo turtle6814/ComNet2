@@ -13,6 +13,7 @@ public class test {
 
     public static void main(String[] args) {
         System.out.println("Hi, my name is John Doe!");
+        System.err.println("XXX");
         int n = 5;
         System.err.println(solve(n));
         printData(n);
