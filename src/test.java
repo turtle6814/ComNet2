@@ -6,10 +6,15 @@ public class test {
         return result;
     }
 
+    public static void printData(int n) {
+        System.out.printf("The result is: %d", n*n);
+    }
+
 
     public static void main(String[] args) {
         System.out.println("Hi, my name is John Doe!");
         int n = 5;
         System.err.println(solve(n));
+        printData(n);
     }
 }
