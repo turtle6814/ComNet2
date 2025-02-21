@@ -12,6 +12,6 @@ public class test {
         System.out.println("XXX");
         int n = 5;
         System.out.println(solve(n));
-        System.out.println("Hello, I'm not a robot.");
+        // System.out.println("Hello, I'm not a robot.");
     }
 }
