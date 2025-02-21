@@ -18,5 +18,6 @@ public class test {
         printData(n);
         System.out.println("Hello, I'm not a robot.");
         System.out.println("My name is Tom.");
+        System.out.println("Another one");
     }
 }
